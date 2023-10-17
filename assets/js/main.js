@@ -8,6 +8,23 @@
 /* Validate If Constant Exists */
 
 
+/*============ About Boxes ============*/
+
+/*============ Project Box 2 ============*/
+const projectsBox = document.getElementById("project-box-2");
+    const projects = document.getElementById("projects");
+
+    projectsBox.addEventListener("click", function () {
+        if (projects.style.display === "none") {
+            projects.style.display = "flex";
+        
+
+        } else {
+            projects.style.display = "none";
+
+        }
+    });
+
 /*============ SKILLS TABS ============*/
 const tabs = document.querySelectorAll('[data-target]'),
     tabContent = document.querySelectorAll('[data-content]')

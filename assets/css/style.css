@@ -419,6 +419,25 @@ input {
     font-size: var(--smaller-font-size);
 }
 
+#project-box-2 {
+    cursor: pointer;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.project-item {
+    flex-basis: calc(33.33% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
 /*======= Qualification Section ======*/
 .qualification__container {
     grid-template-columns: repeat(2, 340px);
