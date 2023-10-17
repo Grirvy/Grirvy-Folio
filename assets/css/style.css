@@ -96,7 +96,7 @@ ul {
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -241,7 +241,7 @@ input {
 }
 .home__container {
     position: relative;
-    height: 100%;
+    height: 100vh;
     align-items: center;
 }
 
@@ -301,7 +301,8 @@ input {
 
 .home__description {
     max-width: 450px;
-    margin-bottom: var(--mb-2)
+    margin-bottom: var(--mb-3);
+    margin-top: 5rem;
 }
 
 .my__info {
@@ -339,7 +340,8 @@ input {
     column-gap: .5rem;
     background-color: var(--skin-color);
     color: var(--title-color);
-    padding: .75rem 1.4rem;
+    padding: .75rem 1.5rem;
+    margin-bottom: 6.5rem;
     border-radius: .25rem;
     font-weight: var(--font-medium);
     position: relative;
@@ -416,7 +418,7 @@ input {
 }
 
 .about__subtitle {
-    font-size: var(--smaller-font-size);
+    font-size: var(--smallwe-font-size);
 }
 
 #project-box-2 {
